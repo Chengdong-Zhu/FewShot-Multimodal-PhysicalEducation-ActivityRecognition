@@ -4,7 +4,7 @@
 
 ---
 
-## 📖 Abstract  
+## 📖 Overview
 Inclusive physical education requires flexible and intelligent systems capable of fairly assessing sports skills among individuals with diverse physical abilities. Traditional assessment techniques often fail due to limited labeled data and lack of adaptability across physical settings.  
 
 This repository presents a **Few-Shot Multimodal Learning Framework** for adaptive sports skill assessment using the **Opportunity** and **PAMAP2** datasets. The framework integrates:  
@@ -23,40 +23,6 @@ This repository presents a **Few-Shot Multimodal Learning Framework** for adapti
 - Strong few-shot generalization  
 
 This framework demonstrates the promise of few-shot multimodal learning for inclusive, scalable, and personalized sports skill assessment in physical education.  
-
----
-
-## 📂 Repository Structure  
-
-FewShot-Multimodal-SportsSkill-Assessment/
-│
-├── data/
-│ ├── Opportunity_activity_recognition_dataset.ipynb
-│ ├── PAMAP2_Physical_Activity_Monitoring_Dataset.ipynb
-│ └── preprocess.py
-│
-├── models/
-│ ├── vit_extractor.py
-│ ├── tcn_module.py
-│ ├── multimodal_fusion.py
-│ ├── clip_alignment.py
-│ └── lora_tapt.py
-│
-├── experiments/
-│ ├── Few_Shot_HAR_Model_Implementation.ipynb
-│ ├── train.py
-│ └── evaluate.py
-│
-├── results/
-│ ├── logs/
-│ ├── figures/
-│ └── checkpoints/
-│
-├── Overview of the proposed approach.png
-├── requirements.txt
-└── README.md
-
-
 
 ---
 
